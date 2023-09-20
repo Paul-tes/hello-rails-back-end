@@ -20,5 +20,5 @@ greetings = [
 ]
 
 greetings.each do |greet|
-  Greeting.new(greeting: greet)
+  Greeting.create(greeting: greet)
 end
